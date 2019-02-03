@@ -1,0 +1,3 @@
+FYI, you can add an X1 to the end and it will save the PID values in EEPROM for you after the tune is done. I have some gcode scripts for common temperatures on my website for the Dup I3 users to download and run and that is what it does to make it simple for them.
+
+M303 P0 S190 R8 X1 ; (Extruder0, 230c Reps:8 Autosave)
